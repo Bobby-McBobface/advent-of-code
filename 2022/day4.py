@@ -1,4 +1,5 @@
 # 2752 / 1550
+# Just realized why my first solution of (low >= low2 and high >= high2) or (low <= low2 and high <= high2) didn't work because I forgot to parse the ints 💀
 with open("in.txt") as _:
     f = _.read().split("\n")
     IN = [x for x in f]
