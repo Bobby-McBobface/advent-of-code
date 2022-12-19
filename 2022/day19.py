@@ -48,8 +48,8 @@ for blueprint in blueprints[:3]:
 
         # https://github.com/alexander-yu/adventofcode/blob/d13bcc7fb150515bf40e5eb4c0a2abb398a9d844/problems_2022/19.py#L49
         # I gave up on part 2, had to look at this explaination on what to do, good explanation though
-        # I could do part 1 just by brute forcing in a few minutes though
-        # In theory if I had more RAM I could have done it
+        # I did pt 1 through brute force by myself though
+        # In theory if I had more RAM I could have done pt 2
         if time not in times:
             times.add(time)
             print(f'[{num}] Time left: {time:<2} | Queue size: {len(queue)}')
