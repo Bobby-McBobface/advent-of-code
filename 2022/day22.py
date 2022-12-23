@@ -1,4 +1,6 @@
 # help how to do part 2
+# after browsing reddit, seems like everyone made a cube, but i can't be bothered
+# so i just copied a wraparound function from someone else
 with open("in.txt") as _:
     f = _.read().split("\n\n")
     IN = [x for x in f]
