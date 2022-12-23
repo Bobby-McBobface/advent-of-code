@@ -1,5 +1,5 @@
 # help how to do part 2
-# after browsing reddit, seems like everyone made a cube, but i can't be bothered
+# after browsing reddit, seems like everyone made a cube, but i can't be bothered to check for correctness (mine was riddled with bugs)
 # so i just copied a wraparound function from someone else
 with open("in.txt") as _:
     f = _.read().split("\n\n")
